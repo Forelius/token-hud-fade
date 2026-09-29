@@ -1,0 +1,62 @@
+{
+  "id": "token-hud-fade",
+  "title": "Token Action HUD Fantastic Depths",
+  "description": "Token Action HUD system module for Fantastic Depths. Requires Token Action HUD Core.",
+  "version": "#{VERSION}#",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "forelius",
+      "url": "https://github.com/Forelius",
+      "discord": "forelius",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "styles": [
+    "./styles/tah-fade.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "fantastic-depths",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.0.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "token-action-hud-core",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.0",
+          "verified": "2.1"
+        }
+      }
+    ]
+  },
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "changelog": "#{CHANGELOG}#",
+  "readme": "README.md",
+  "license": "LICENSE",
+  "socket": false,
+  "library": false
+}

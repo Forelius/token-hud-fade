@@ -1,0 +1,26 @@
+{
+  "tokenActionHud": {
+    "fade": {
+      "combat": "Combat",
+      "melee": "Melee",
+      "missile": "Missile",
+      "spellLevel": "Level {level}",
+      "specialAbilities": "Special Abilities",
+      "gear": "Gear",
+      "lights": "Lights",
+      "utility": "Utility",
+      "endTurn": "End Turn",
+      "lightOn": "On",
+      "setting": {
+        "showUnequippedWeapons": {
+          "name": "Show unequipped weapons",
+          "hint": "When enabled, weapons that are not equipped also appear in the Combat category."
+        },
+        "showUnmemorizedSpells": {
+          "name": "Show unmemorized spells",
+          "hint": "When enabled, spells with no remaining casts (or not memorized) also appear in the Spells category."
+        }
+      }
+    }
+  }
+}
