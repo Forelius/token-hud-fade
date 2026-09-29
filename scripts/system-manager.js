@@ -6,51 +6,28 @@ import * as systemSettings from './settings.js'
 export let SystemManager = null
 
 Hooks.once('tokenActionHudCoreApiReady', async (coreModule) => {
-  /**
-   * Extends Token Action HUD Core's SystemManager class
-   */
   SystemManager = class SystemManager extends coreModule.api.SystemManager {
-    /**
-     * @override
-     * @returns {ActionHandler}
-     */
+    /** @override */
     getActionHandler () {
       return new ActionHandler()
     }
 
-    /**
-     * @override
-     * @returns {object}
-     */
+    /** @override */
     getAvailableRollHandlers () {
       return { core: 'Fantastic Depths' }
     }
 
-    /**
-     * @override
-     * @param {string} rollHandlerId
-     * @returns {object}
-     */
+    /** @override */
     getRollHandler (rollHandlerId) {
-      switch (rollHandlerId) {
-        case 'core':
-        default:
-          return new Core()
-      }
+      return new Core()
     }
 
-    /**
-     * @override
-     * @param {Function} coreUpdate
-     */
+    /** @override */
     registerSettings (coreUpdate) {
       systemSettings.register(coreUpdate)
     }
 
-    /**
-     * @override
-     * @returns {object}
-     */
+    /** @override */
     async registerDefaults () {
       return DEFAULTS
     }
