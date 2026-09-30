@@ -69,7 +69,7 @@ jobs:
             printf "%s\n" "$RELEASE_BODY"
             echo
             echo "To install manually, use this URL:"
-            echo "https://github.com/${{github.repository}}/releases/download/latest/module.json"
+            echo "https://github.com/${{github.repository}}/releases/latest/download/module.json"
           } > release_notes.txt
 
       - name: Create GitHub release
