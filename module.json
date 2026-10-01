@@ -40,7 +40,7 @@
     "requires": [
       {
         "id": "token-action-hud-core",
-        "type": "module",
+        "type": "module"
       }
     ]
   },
