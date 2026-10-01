@@ -34,10 +34,7 @@
     "systems": [
       {
         "id": "fantastic-depths",
-        "type": "system",
-        "compatibility": {
-          "minimum": "1.0.0"
-        }
+        "type": "system"
       }
     ],
     "requires": [

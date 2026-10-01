@@ -2,8 +2,7 @@
   "tokenActionHud": {
     "fade": {
       "combat": "Combat",
-      "melee": "Melee",
-      "missile": "Missile",
+      "attacks": "Attacks",
       "spellLevel": "Level {level}",
       "specialAbilities": "Special Abilities",
       "gear": "Gear",
