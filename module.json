@@ -4,7 +4,7 @@
   "description": "Token Action HUD system module for Fantastic Depths. Requires Token Action HUD Core.",
   "version": "#{VERSION}#",
   "compatibility": {
-    "minimum": "13",
+    "minimum": "14",
     "verified": "14",
     "maximum": "14"
   },
