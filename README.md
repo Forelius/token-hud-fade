@@ -1,10 +1,12 @@
 # Token Action HUD Fantastic Depths
+![image](https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fversion%3Fstyle%3Dflat%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FForelius%2Ffantastic-depths%2Frefs%2Fheads%2Fstable%2Fsystem.json)
+![image](https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fsystem%3FnameType%3Dfull%26style%3Dflat%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FForelius%2Ffade-compendiums%2Frefs%2Fheads%2Fstable%2Fmodule.json)
 
 System module for [Token Action HUD Core](https://github.com/Larkinabout/fvtt-token-action-hud-core) that exposes Fantastic Depths actions on a repositionable HUD.
 
 ## Requirements
 
-- Foundry VTT v13–v14
+- Foundry VTT v14
 - [Fantastic Depths](https://github.com/Forelius/fantastic-depths)
 - [Token Action HUD Core](https://foundryvtt.com/packages/token-action-hud-core) 2.x (and its dependency **socketlib**)
 
